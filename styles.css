@@ -1,0 +1,107 @@
+/* nav bar styles */
+.nav-div {
+}
+.custom-color {
+  padding-left: 20px;
+  padding-right: 40px;
+  background-color: #16c79a;
+}
+.custom-li {
+  margin: 0 20px;
+}
+
+/* content body style */
+/* .master-container {
+  width: 70%;
+  margin: 0 auto;
+} */
+.headline {
+  display: flex;
+  text-align: center;
+  height: 40vh;
+  align-items: center;
+  justify-content: space-around;
+}
+.content-container {
+  color: rgb(65, 64, 64);
+  width: 70%;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+.custom-row {
+  display: flex;
+  flex-direction: column;
+}
+.custom-col1,
+.custom-col2 {
+  margin-top: 40px;
+  /* background-color: rgb(240, 231, 231); */
+}
+
+.recipe-list {
+  background-color: #a4f6c6;
+}
+
+.categories {
+  background-color: #e8f7ee;
+}
+
+@media (min-width: 800px) {
+  .nav-div {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .headline {
+    height: 550px;
+    color: white;
+    background-image: url(images/asian_noodles.webp);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+  }
+  .custom-row {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+/* recipe page */
+
+.recipe-name {
+  height: 20vh;
+  background-color: rgb(220, 245, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recipe-category {
+  height: 20vh;
+  background-color: rgb(188, 245, 188);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#recipe-ingredients {
+  background-color: rgb(111, 161, 111);
+}
+.instructions {
+  background-color: rgb(69, 102, 69);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1000px) {
+}
+
+/* category styles */
+.category-row {
+  display: flex;
+  flex-direction: column;
+}
+
+/* recipe page */
+.recipe-row {
+  display: flex;
+  flex-direction: column;
+}
